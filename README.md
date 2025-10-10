@@ -51,3 +51,6 @@ g++ main.cpp -o alchemist
 
 ---
 
+## Video
+https://github.com/prashantgarg8/Alchemists-Journey/releases/tag/v1
+
