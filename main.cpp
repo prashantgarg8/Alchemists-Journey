@@ -95,9 +95,7 @@ void addCoins(Player &p, int c) {
     p.coins += c;
     cout << "You gained " << c << " coins.\n";
 }
-void hello(){
-    cout<<"hi"<<endl;
-}
+
 void craft(Player &p) {
     cout << "\n=== Crafting Menu ===\n";
     cout << "1. Make Basic Potion (2 Herbs + 1 Crystal)\n";
