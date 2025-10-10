@@ -33,3 +33,21 @@ g++ main.cpp -o alchemist
 -  **Simple Console Gameplay** — Playable entirely in the terminal, no extra libraries required.
 
 ---
+##  Main Functions Overview
+
+| Function | Description |
+|-----------|-------------|
+| `printTitleArt()` | Displays the magical title screen ASCII art. |
+| `printElixirArt()` | Prints the glowing elixir art when a potion is successfully brewed. |
+| `heal(Player &p, int h)` | Restores player health by `h` points. |
+| `damage(Player &p, int d)` | Reduces player health by `d` points. |
+| `addCoins(Player &p, int c)` | Adds coins to the player's inventory. |
+| `usePotion(Player &p)` | Consumes a potion to regain health. |
+| `treasureRoom(Player &p)` | Allows the player to find coins or special items. |
+| `fightRoom(Player &p)` | Initiates combat with a magical creature or rogue alchemist. |
+| `bossRoom(Player &p)` | The final alchemical duel; win to complete the game. |
+| `printMenu()` | Shows available in-game actions. |
+| `main()` | Entry point; controls the full gameplay loop. |
+
+---
+
